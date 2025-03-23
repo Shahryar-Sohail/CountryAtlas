@@ -14,8 +14,8 @@ const About = () => {
         {countryapi.map((country) => (
           <div
             key={country.id}
-            className="w-96 h-96 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col
-             items-center p-4 hover:shadow-gray-800 dark:hover:shadow-white"
+            className="w-80 h-96 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col
+                   items-center p-4 hover:shadow-gray-800 dark:hover:shadow-white"
           >
             <img
               className="w-36 h-24 object-cover"
