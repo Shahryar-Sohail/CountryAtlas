@@ -4,36 +4,35 @@ import { getSingleCountryData } from '../../api/postApi';
 import Loader from '../UI/Loader';
 
 export const CountryDetails = () => {
-
     const [country, setCountry] = useState([])
-    // const [isVisible, setIsVisivle] = useState([])
     const [isPending, startTransition] = useTransition({});
     const params = useParams()
-
 
     useEffect(() => {
         startTransition(async () => {
             const res = await getSingleCountryData(params.id)
             if (res.status === 200) {
                 setCountry(res.data[0])
-                // console.log("Got Country Data", res.data[0]);
-                // console.log("Country", country);
-
             }
         })
     }, []);
+
     if (isPending) {
         return <Loader />
     }
 
     return (
         <>
-        <NavLink to={"/country"}>
-            <button type="button" className="ml-10 text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800">Back</button>
-        </NavLink>
+            <NavLink to={"/country"}>
+                <button type="button" className="ml-10 text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800">
+                    Back
+                </button>
+            </NavLink>
 
-            <div className="min-h-screen grid grid-cols-2 gap-4 p-4 mt-10">
-                {/* Left Column - Image */}
+            {/* Mobile: 1 column (Image on top, text below) | Desktop: 2 columns */}
+            <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 mt-10">
+                
+                {/* Image Section */}
                 <div className="flex items-center justify-center">
                     <img
                         className="w-auto h-auto object-cover"
@@ -42,8 +41,8 @@ export const CountryDetails = () => {
                     />
                 </div>
 
-                {/* Right Column - Country Data */}
-                <div className="flex flex-col justify-center">
+                {/* Country Details Section */}
+                <div className="flex flex-col self-start items-center">
                     <h5 className="text-2xl font-bold text-gray-900 dark:text-white">
                         {country?.name?.common}
                     </h5>
@@ -68,7 +67,6 @@ export const CountryDetails = () => {
                 </div>
             </div>
         </>
-
     )
 }
 
