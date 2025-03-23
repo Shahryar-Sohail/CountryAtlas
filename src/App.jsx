@@ -33,7 +33,7 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div className="dark:bg-gray-800">
+    <div className="bg-white dark:bg-gray-800">
       <RouterProvider router={router} />
     </div>
   );
