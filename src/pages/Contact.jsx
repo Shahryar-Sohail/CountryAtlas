@@ -7,7 +7,7 @@ const Contact = () => {
     console.log(formInputData)
   }
   return (
-    <div className='dark:bg-gray-800 mt-14 h-screen'>
+    <div className='bg-white dark:bg-gray-800 mt-14 h-screen'>
     <h1 className='text-center text-6xl mb-10 dark:text-white'>Contact Us</h1>
       <form className="max-w-sm mx-auto" action={handleFormSubmit}>
         <div className="mb-5">

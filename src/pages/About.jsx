@@ -3,8 +3,8 @@ import countryapi from '../api/country.json'
 
 const About = () => {
   return (
-    <div className="dark:bg-gray-800 m-14">
-      <h1 className="text-center text-black dark:text-white text-5xl">
+    <div className="bg-white dark:bg-gray-800 m-14">
+      <h1 className="bg-white dark:bg-gray-800 text-center text-black dark:text-white text-5xl">
         Here are the Interesting Facts<br />
         we’re proud of
       </h1>
