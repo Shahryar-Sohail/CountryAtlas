@@ -23,9 +23,10 @@ const router = createBrowserRouter(
     { path: "*", element: <NotFound /> },
   ],
   {
+    basename: "/CountryAtlas", // 👈 Add this to fix GitHub Pages routing!
     future: {
-      v7_startTransition: true,  // ✅ Fixes the first warning
-      v7_relativeSplatPath: true // ✅ Fixes the second warning
+      v7_startTransition: true,
+      v7_relativeSplatPath: true
     },
   }
 );
