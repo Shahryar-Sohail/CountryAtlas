@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "countryName": "World",
+    "capital": "No Capital",
+    "region": "Global",
+    "language": "Multiple",
+    "area": "510.1 million km²",
+    "population": 8000000000,
+    "postalCode": "N/A",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/290px-The_Earth_seen_from_Apollo_17.jpg"
+  },
+  {
+    "id": 2,
+    "countryName": "Pakistan",
+    "capital": "Islamabad",
+    "region": "Asia",
+    "language": "Urdu",
+    "area": "881,913 km²",
+    "population": 231000000,
+    "postalCode": "44000",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"
+  },
+  {
+    "id": 3,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "region": "Africa",
+    "language": "Arabic",
+    "area": "1,010,408 km²",
+    "population": 104258327,
+    "postalCode": "11511",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg"
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "language": "English",
+    "area": "7,692,024 km²",
+    "population": 25687041,
+    "postalCode": "2600",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg"
+  },
+  {
+    "id": 5,
+    "countryName": "Brazil",
+    "capital": "Brasilia",
+    "region": "South America",
+    "language": "Portuguese",
+    "area": "8,515,767 km²",
+    "population": 213993437,
+    "postalCode": "70000-000",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+  },
+  {
+    "id": 6,
+    "countryName": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "language": "French",
+    "area": "643,801 km²",
+    "population": 67407241,
+    "postalCode": "75000",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+  },
+  {
+    "id": 7,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "region": "Europe/Asia",
+    "language": "Russian",
+    "area": "17,098,242 km²",
+    "population": 146000000,
+    "postalCode": "101000",
+    "flag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
+  },
+  {
+    "id": 8,
+    "countryName": "China",
+    "capital": "Beijing",
+    "region": "Asia",
+    "language": "Mandarin",
+    "area": "9,596,961 km²",
+    "population": 1444216107,
+    "postalCode": "100000",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/255px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+  }
+]
