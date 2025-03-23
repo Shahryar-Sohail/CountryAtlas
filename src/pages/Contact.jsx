@@ -8,7 +8,7 @@ const Contact = () => {
   }
   return (
     <div className='bg-white dark:bg-gray-800 mt-14 h-screen'>
-    <h1 className='text-center text-6xl mb-10 dark:text-white'>Contact Us</h1>
+    <h1 className='text-center text-6xl mb-10 text-gray-800 dark:text-white'>Contact Us</h1>
       <form className="max-w-sm mx-auto" action={handleFormSubmit}>
         <div className="mb-5">
           <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your name</label>

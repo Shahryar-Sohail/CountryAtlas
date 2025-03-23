@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className='dark:bg-gray-800'>
+    <div className='dark:bg-gray-800 bg-white'>
       <div className='flex flex-col items-center justify-center gap-4 p-4 md:flex-row md:gap-8'>
         {/* left div */}
         <div className="max-w-lg p-6 bg-white dark:bg-gray-800 dark:border-gray-700">
