@@ -30,8 +30,8 @@ export const CountryDetails = () => {
             </NavLink>
 
             {/* Mobile: 1 column (Image on top, text below) | Desktop: 2 columns */}
-            <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 mt-10">
-                
+            <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 mt-10 ">
+
                 {/* Image Section */}
                 <div className="flex items-center justify-center">
                     <img
@@ -42,7 +42,7 @@ export const CountryDetails = () => {
                 </div>
 
                 {/* Country Details Section */}
-                <div className="flex flex-col self-start items-center">
+                <div className="flex flex-col min-h-screen self-start items-center sm:justify-center">
                     <h5 className="text-2xl font-bold text-gray-900 dark:text-white">
                         {country?.name?.common}
                     </h5>
